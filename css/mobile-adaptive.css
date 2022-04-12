@@ -1,0 +1,87 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* *************head***************** */
+    .idc-head .idc-container {
+        height: 137px;
+    }
+    /* *************info***************** */
+    .idc-info .idc-planet {
+        top: 22%;
+    }
+    .idc-info .idc-stars {
+        top: 2%;
+    }
+    .idc-info .idc-container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .idc-info p > strong::before {
+        left: -15px;
+    }
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        height: 160px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 22.5vw;
+    }
+    /* ******info**** */
+
+    .idc-info .idc-container {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .idc-info .idc-stars {
+        left: unset;
+        width: 47vw;
+        right: 0;
+    }
+    .idc-info .idc-rocket {
+        width: 30vw;
+        bottom: 20%;
+    }
+    .idc-info .idc-planet {
+        top: 22%;
+    }
+    .idc-info p > strong::before {
+        width: 174px;
+        height: 25px;
+    }
+    .idc-info p > strong {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .idc-info ul {
+        margin-top: 15px;
+        max-width: 88vw;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 17px;
+        padding-left: 14px;
+    }
+    .idc-info ul li::before {
+        top: 8px;
+        left: 0;
+        width: 4px;
+        height: 4px;
+    }
+
+    /* ******footer********* */
+    .idc-footer .idc-container {
+        height: 26vw;
+    }
+}
